@@ -1,0 +1,1 @@
+<?phpsession_start();if(isset($_SESSION['User'])){	unset($_SESSION['User']);		}	header("location:Inicio.php");?>
